@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.page {
+  display: grid;
+  margin-bottom: 20rem;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+  color: #E1E1E6;
+  margin-bottom: 4.8rem;
+  justify-self: center;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  width: 19.5rem;
+  height: 4.8rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: 0.2rem solid #FFFFFF;
+  border-radius: 0.5rem;
+  background: transparent;
+  transition: all .3s;
+}
+
+button:hover {
+  background: #FFFFFF;
+  color: #02799D;
+  cursor: pointer;
+}
